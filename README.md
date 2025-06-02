@@ -5,9 +5,6 @@ This repository implements a **Hub-and-Spoke** network architecture on Microsoft
 ---
 
 
-###  `resourcegroup`
-Creates a resource group in Azure to contain all other infrastructure components.
-
 ###  `firewall.tf`
 - Deploys an `azurerm_firewall` resource in the Hub network.
 - Defines NAT and network rules.
